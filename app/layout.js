@@ -3,8 +3,8 @@
 import "./globals.css";
 import { Footer } from "@/components/Footer";
 import { TransparentHeader } from "@/components/TransparentHeader";
-import Head from "next/head";
-// import Script from 'next/script';
+ 
+ 
 
 // const inter = Inter({ subsets: ["latin"] });
 // const poppins = Poppins({
@@ -26,12 +26,6 @@ export default function RootLayout({ children }) {
       lang="en"
       //  className={`${poppins.variable}`}
     >
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <body>
         <TransparentHeader></TransparentHeader>
         {children}

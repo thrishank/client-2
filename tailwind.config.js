@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      newfont: ["Source Sans Pro"],
+      newfont: ["source-sans-pro"],
     },
     backgroundImage: {
       "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
