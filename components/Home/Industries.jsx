@@ -22,7 +22,7 @@ function Industries() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-[#171A47] p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#ffffff] rounded-lg flex items-center justify-center">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="29"
@@ -89,8 +89,8 @@ function Industries() {
             </div>
           </div>
 
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#DEF0FF] rounded-lg flex items-center justify-center">
+          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-[#171A47] p-2.5 rounded-lg">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="27"
@@ -501,7 +501,7 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Ecommerce
               </div>
             </div>
