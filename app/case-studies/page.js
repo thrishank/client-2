@@ -3,6 +3,7 @@ import Link from "next/link";
 import Script from "next/script";
 import React, { useEffect, useState } from "react";
 
+
 function Card({ title, image, link = "/" }) {
   return (
     // "https://via.placeholder.com/360x500"

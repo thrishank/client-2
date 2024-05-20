@@ -22,7 +22,7 @@ export default function Home() {
       gtag('js', new Date()); gtag('config', 'G-4JEVQXM0B7');`}
       </Script>
       <Slider></Slider>
-      <div className="bg-[#000212] ">
+      <div className="bg-[#000212]">
         <PopularServices></PopularServices>
         <ProcessFollow></ProcessFollow>
       </div>
