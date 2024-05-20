@@ -9,7 +9,7 @@ function Card({ title, image, alt }) {
         {" "}
         <Image
           src={image}
-          className="w-[147px] h-[147px]"
+          className="w-[147px] h-[147px] transition-transform transform hover:scale-105"
           alt={alt}
           width={147}
           height={147}

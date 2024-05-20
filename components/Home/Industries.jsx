@@ -21,7 +21,7 @@ function Industries() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-[#171A47] p-2.5 rounded-lg">
+          <div className="col-span-3 flex items-center justify-center flex-col shadow-Box bg-[#171A47] py-2 hover:border-2 border-[#6249CE] rounded-2xl">
             <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
