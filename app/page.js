@@ -24,10 +24,14 @@ export default function Home() {
       <Slider></Slider>
       <div className="bg-[#000212]">
         <PopularServices></PopularServices>
-        <ProcessFollow></ProcessFollow>
       </div>
       <div className="bg-[#0A0D22]">
+        <ProcessFollow></ProcessFollow>
+      </div>
+      <div className="bg-[#000212]">
         <Industries></Industries>
+      </div>
+      <div className="bg-[#0A0D22]">
         <Partnership></Partnership>
       </div>
       <div className="bg-[#000212] ">

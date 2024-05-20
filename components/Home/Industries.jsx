@@ -1,5 +1,6 @@
 import React from "react";
 
+import "../../app/globals.css";
 function Industries() {
   return (
     <div
@@ -20,8 +21,8 @@ function Industries() {
             industries that revolutionize user experience.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
-          <div className="col-span-3 flex items-center justify-center flex-col shadow-Box bg-[#171A47] py-2 hover:border-2 border-[#6249CE] rounded-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-8 gap-4">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
             <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,8 +89,7 @@ function Industries() {
               <div className=" text-white text-[20px] font-medium  ">Food</div>
             </div>
           </div>
-
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-[#171A47] p-2.5 rounded-lg">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
             <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -507,8 +507,8 @@ function Industries() {
             </div>
           </div>
 
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#FDEBE4] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -554,14 +554,13 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Sports
               </div>
             </div>
           </div>
-
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#FFF6CA]  rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -726,14 +725,13 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Marketplace
               </div>
             </div>
           </div>
-
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#DAF1FF] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -776,14 +774,14 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Education
               </div>
             </div>
           </div>
 
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#FFE7E6] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="27"
@@ -874,14 +872,13 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Real Estate
               </div>
             </div>
           </div>
-
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#ECECFF] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="27"
@@ -960,14 +957,13 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Entertainment
               </div>
             </div>
           </div>
-
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#FFEEEB] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -1046,14 +1042,14 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Fitness
               </div>
             </div>
           </div>
 
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#FFE6E6] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -1112,14 +1108,14 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Tourism
               </div>
             </div>
           </div>
 
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#DAEBFF]  rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -1154,14 +1150,13 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Dating
               </div>
             </div>
           </div>
-
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#FEF3DB] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -1608,14 +1603,14 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Logistics
               </div>
             </div>
           </div>
 
-          <div className=" col-span-3 flex gap-4 items-center shadow-Box  bg-white p-2.5 rounded-lg">
-            <div className="w-[60px] h-[60px] bg-[#D7FDF8] rounded-lg flex items-center justify-center">
+          <div className="col-span-2 bg-radial-gradient flex items-center justify-center flex-col  py-4 hover:border-2 border-[#6249CE] rounded-2xl">
+            <div className="w-[60px] h-[60px] bg-[#0A0D22] rounded-lg flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="23"
@@ -1686,7 +1681,7 @@ function Industries() {
               </svg>
             </div>
             <div className="flex flex-col justify-start items-start">
-              <div className=" text-zinc-800 text-[20px] font-medium  ">
+              <div className=" text-white text-[20px] font-medium  ">
                 Healthcare
               </div>
             </div>

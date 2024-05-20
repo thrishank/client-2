@@ -168,8 +168,8 @@ function ProcessFollow() {
           Our team of top-notch developers make sure to follow a process that
           guarantee success of your mobile app development project.
         </p>
-        <div className="border-[#00C2FF] text-gray-200 md:flex items-center justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#001927] mb-8">
-          <div className="">
+        <div className="border-[#00C2FF] text-gray-200 items-center lg:flex justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#001927] mb-8">
+          <div className="text-center lg:text-start">
             <h1 className="text-white text-xl font-bold py-4">
               Stunning visuals and user-friendly layouts
             </h1>
@@ -189,7 +189,7 @@ function ProcessFollow() {
         </div>
         <div className="border-[#7DD666]  text-gray-200 flex flex-col-reverse md:flex-row items-center justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#1C3223] my-8">
           <img src="processtestimage.png" width="539px" height="285.93"></img>
-          <div className="">
+          <div className="text-center lg:text-start">
             <h1 className="text-white text-xl font-bold py-4">
               Stunning visuals and user-friendly layouts
             </h1>
@@ -202,7 +202,7 @@ function ProcessFollow() {
           </div>
         </div>
         <div className="border-[#FFB489]  text-gray-200 md:flex items-center justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#39292A] mt-8">
-          <div className="">
+          <div className="text-center lg:text-start">
             <h1 className="text-white text-xl font-bold py-4">
               Stunning visuals and user-friendly layouts
             </h1>

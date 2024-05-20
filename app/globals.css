@@ -235,3 +235,9 @@ hover effect 2
 /* *{
 	font-family: 'Source Sans Pro', sans-serif;
 } */
+
+/* styles.css */
+.bg-radial-gradient {
+	@apply bg-no-repeat bg-cover;
+	background-image: radial-gradient(at center left, #0F1642 0%, #1E244D61 100%);
+  }
