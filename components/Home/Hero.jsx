@@ -12,7 +12,7 @@ function Hero({
 }) {
   return (
     <>
-      <div className="hidden md:flex items-center justify-center h-screen">
+      <div className="hidden md:flex items-center justify-center h-screen font-newfont">
         {/* <Image
           src={dimg}
           alt="background"
