@@ -5,22 +5,12 @@ import WhiteButton from "../ui/WhiteButton";
 function Hero({
   titile,
   paragraph,
-  dimg,
-  mimg,
   link = "/",
   btn = "Explore More >",
 }) {
   return (
     <>
       <div className="hidden md:flex items-center justify-center h-screen font-newfont">
-        {/* <Image
-          src={dimg}
-          alt="background"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          priority
-        /> */}
         <div className="flex flex-col items-center justify-center text-center h-full w-full px-4">
           <div className="relative z-10 w-full max-w-2xl">
             <div className="mb-6">
@@ -38,14 +28,6 @@ function Hero({
         </div>
       </div>
       <div className="md:hidden flex items-center justify-center h-screen">
-        {/* <Image
-          src={mimg}
-          alt="background"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          priority
-        /> */}
         <div className="flex flex-col items-center justify-center text-center h-full w-full px-4">
           <div className="relative z-10 w-full max-w-2xl">
             <div className="mb-6">

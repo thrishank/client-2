@@ -4,7 +4,7 @@ import React from "react";
 function BlueButton({ text, link = "/" }) {
   return (
     <Link href={link}>
-      <button className=" flex gap-3 bg-[#0085F2] shadow-md text-white text-base md:text-lg font-semibold  rounded-full px-12 py-3 justify-center items-center hover:bg-[#FF5948] hover:text-white transition-all duration-200 hover:scale-95 hover:font-normal ">
+      <button className=" flex gap-3 bg-[#664ECD] shadow-md text-white text-base md:text-lg font-semibold  rounded-full px-12 py-3 justify-center items-center hover:text-white transition-all duration-200 hover:scale-95 hover:font-semibold ">
         <span>{text}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

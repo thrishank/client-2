@@ -24,7 +24,7 @@ function Slider() {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-0"></div>
       <Swiper
         navigation={false}
-        pagination={true}
+        pagination={false}
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
@@ -39,8 +39,6 @@ function Slider() {
             paragraph={
               "Empowering Your Business with Next-Level Android App Development Services. "
             }
-            dimg={"/hero1.png"}
-            mimg={"/herom1.png"}
             link="services/android-app"
           />
         </SwiperSlide>
@@ -51,8 +49,6 @@ function Slider() {
             paragraph={
               "User-Centric and Visually Stunning iOS App Development Services for start-ups."
             }
-            dimg={"/hero2.png"}
-            mimg={"/herom2.png"}
             link="services/ios-app"
           />
         </SwiperSlide>
@@ -63,8 +59,6 @@ function Slider() {
             paragraph={
               "Quality Hybrid App Development Services at Affordable Cost for Small Businesses."
             }
-            dimg={"/hero3.png"}
-            mimg={"/herom3.png"}
             link="services/hybrid-app"
           />
         </SwiperSlide>
