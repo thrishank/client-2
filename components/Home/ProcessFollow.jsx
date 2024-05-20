@@ -161,27 +161,57 @@ function ProcessFollow() {
         </div>
       </div> */}
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 font-newfont">
-
-        <h1 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">Process we follow</h1>
-        <p className="text-gray-200 text-center p-2 pb-14 text-base md:text-lg">Our team of top-notch developers make sure to follow a process that guarantee success of your mobile app development project.</p>
+        <h1 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">
+          Process we follow
+        </h1>
+        <p className="text-gray-200 text-center p-2 pb-14 text-base md:text-lg">
+          Our team of top-notch developers make sure to follow a process that
+          guarantee success of your mobile app development project.
+        </p>
         <div className="border-[#00C2FF] text-gray-200 md:flex items-center justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#001927] mb-8">
           <div className="">
-            <h1 className="text-white text-xl font-bold py-4">Stunning visuals and user-friendly layouts</h1>
-            <p className="leading-7 pb-9">Crafted with innovation in mind, Stratus boasts a sleek and futuristic design that captivates your visitors from the moment they land on your site. Impress with stunning visuals and user-friendly layouts that scream modernity and sophistication.</p>
+            <h1 className="text-white text-xl font-bold py-4">
+              Stunning visuals and user-friendly layouts
+            </h1>
+            <p className="leading-7 pb-9">
+              Crafted with innovation in mind, Stratus boasts a sleek and
+              futuristic design that captivates your visitors from the moment
+              they land on your site. Impress with stunning visuals and
+              user-friendly layouts that scream modernity and sophistication.
+            </p>
           </div>
-          <img src="processtestimage.png" width="539px" height="285.93" className=""></img>
+          <img
+            src="processtestimage.png"
+            width="539px"
+            height="285.93"
+            className=""
+          ></img>
         </div>
         <div className="border-[#7DD666]  text-gray-200 flex flex-col-reverse md:flex-row items-center justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#1C3223] my-8">
           <img src="processtestimage.png" width="539px" height="285.93"></img>
           <div className="">
-            <h1 className="text-white text-xl font-bold py-4">Stunning visuals and user-friendly layouts</h1>
-            <p className="leading-7 pb-9">Crafted with innovation in mind, Stratus boasts a sleek and futuristic design that captivates your visitors from the moment they land on your site. Impress with stunning visuals and user-friendly layouts that scream modernity and sophistication.</p>
+            <h1 className="text-white text-xl font-bold py-4">
+              Stunning visuals and user-friendly layouts
+            </h1>
+            <p className="leading-7 pb-9">
+              Crafted with innovation in mind, Stratus boasts a sleek and
+              futuristic design that captivates your visitors from the moment
+              they land on your site. Impress with stunning visuals and
+              user-friendly layouts that scream modernity and sophistication.
+            </p>
           </div>
         </div>
         <div className="border-[#FFB489]  text-gray-200 md:flex items-center justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#39292A] mt-8">
           <div className="">
-            <h1 className="text-white text-xl font-bold py-4">Stunning visuals and user-friendly layouts</h1>
-            <p className="leading-7 pb-9">Crafted with innovation in mind, Stratus boasts a sleek and futuristic design that captivates your visitors from the moment they land on your site. Impress with stunning visuals and user-friendly layouts that scream modernity and sophistication.</p>
+            <h1 className="text-white text-xl font-bold py-4">
+              Stunning visuals and user-friendly layouts
+            </h1>
+            <p className="leading-7 pb-9">
+              Crafted with innovation in mind, Stratus boasts a sleek and
+              futuristic design that captivates your visitors from the moment
+              they land on your site. Impress with stunning visuals and
+              user-friendly layouts that scream modernity and sophistication.
+            </p>
           </div>
           <img src="processtestimage.png" width="539px" height="285.93"></img>
         </div>
