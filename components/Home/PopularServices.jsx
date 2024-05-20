@@ -4,7 +4,7 @@ import BlueButton from "../ui/BlueButton";
 
 function Card({ title, image, alt }) {
   return (
-    <div className=" flex flex-col justify-center items-center bg-white rounded-xl py-10 px-0  md:px-6 shadow-lg w-full ">
+    <div className=" flex flex-col justify-center items-center text-white rounded-xl py-10 px-0  md:px-6 shadow-lg w-full ">
       <div>
         {" "}
         <Image
