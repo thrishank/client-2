@@ -5,16 +5,16 @@ function ProcessFollow() {
   return (
     <>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 font-newfont">
-        <h1 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">
+        <h1 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-black md:mx-auto">
           Process we follow
         </h1>
-        <p className="text-gray-200 text-center p-2 pb-14 text-base md:text-lg">
+        <p className="text-black text-center p-2 pb-14 text-base md:text-lg">
           Our team of top-notch developers make sure to follow a process that
           guarantee success of your mobile app development project.
         </p>
-        <div className="border-[#00C2FF] text-gray-200 items-center flex lg:flex-row flex-col justify-center border-[3px] mx-4 md:mx-8 py-2 px-4 rounded-2xl bg-[#001927] mb-8">
+        <div className="border-[#00C2FF] text-white items-center flex lg:flex-row flex-col justify-center border-[3px] mx-4 md:mx-8 py-2 px-4 rounded-2xl bg-[#001927] mb-8">
           <div className="text-center lg:text-start">
-            <h1 className="text-white text-xl font-bold py-4">
+            <h1 className="text-xl font-bold py-4">
               Requirement Analysis
             </h1>
             <p className="leading-7 pb-9">

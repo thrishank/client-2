@@ -72,15 +72,15 @@ const FeaturesGrid = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 font-newfont">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">
+        <h2 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-bla md:mx-auto">
           Industries We Serve
         </h2>
-        <p className="text-base text-white text-center md:text-lg">
+        <p className="text-base text-bla text-center md:text-lg">
           We provide tailored mobile app development solutions for diverse
           industries that revolutionize user experience.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-bla">
         {features.map((feature, index) => {
           let borderClasses = "border-x";
           if (index >= 4 && index < 8) {
@@ -89,7 +89,7 @@ const FeaturesGrid = () => {
           return (
             <div
               key={index}
-              className={`flex flex-col items-start shadow-md relative hover:bg-[#001927] py-5 pr-7 ${borderClasses} border-[#212331]  `}
+              className={`flex flex-col items-start shadow-md relative hover:bg-[#dadee0] py-5 pr-7 ${borderClasses} border-[#212331]  `}
             >
               <img
                 src={feature.imgSrc}
