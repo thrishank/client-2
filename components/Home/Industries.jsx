@@ -6,65 +6,65 @@ const features = [
   {
     title: "Food App",
     description: "Sleek and futuristic design that captivates your visitors.",
-    imgSrc: "/food10.jpg",
+    imgSrc: "/food11.png",
   },
   {
     title: "Ecommerce App",
     description:
       "Rest easy knowing that Stratus is fortified with robust security measures.",
-    imgSrc: "/ecommerce10.png",
+    imgSrc: "/ecommerce11.png",
   },
   {
     title: "Sports App",
     description:
       "Showcase your products, services, or projects with dynamic elements.",
-    imgSrc: "/sports10.png",
+    imgSrc: "/sports11.png",
   },
   {
     title: "Marketplace App",
     description: "Sensitive data are safe from malicious threats.",
-    imgSrc: "/marketplace10.png",
+    imgSrc: "/marketplace11.png",
   },
   {
     title: "Education App",
     description: "Lightweight architecture and optimized code.",
-    imgSrc: "/education10.png",
+    imgSrc: "/education11.png",
   },
   {
     title: "Real State App",
     description:
       "Tailor your website to perfection with our easy-to-use customization tools.",
-    imgSrc: "/realstate10.png",
+    imgSrc: "/realstate11.png",
   },
   {
     title: "Entertainment App",
     description: "Showcase your technology in a stunning custom portfolio.",
-    imgSrc: "/entertainment10.png",
+    imgSrc: "/entertainment11.png",
   },
   {
     title: "Fitness App",
     description: "Easily recall and index pages and data.",
-    imgSrc: "/fitness10.png",
+    imgSrc: "/fitness11.png",
   },
   {
     title: "Tourism App",
     description: "Easily recall and index pages and data.",
-    imgSrc: "/tourism10.png",
+    imgSrc: "/tourism11.png",
   },
   {
     title: "Dating App",
     description: "Easily recall and index pages and data.",
-    imgSrc: "/dating.png",
+    imgSrc: "/dating11.png",
   },
   {
     title: "Logistics App",
     description: "Easily recall and index pages and data.",
-    imgSrc: "/logistic10.png",
+    imgSrc: "/logistic11.png",
   },
   {
     title: "Healthcare App",
     description: "Easily recall and index pages and data.",
-    imgSrc: "/healthcare10.png",
+    imgSrc: "/healthcare11.png",
   },
 ];
 
@@ -94,7 +94,7 @@ const FeaturesGrid = () => {
               <img
                 src={feature.imgSrc}
                 alt={feature.title}
-                className="w-16 h-12 mb-4 pl-[26px]"
+                className="w-20 h-12 mb-4 pl-[26px]"
               />
               <h4 className="text-lg font-semibold border-l-4 border-[#6249CE] pl-[22px]">
                 {feature.title}
