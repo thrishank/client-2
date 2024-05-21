@@ -15,13 +15,13 @@ function ProcessFollow() {
         <div className="border-[#00C2FF] text-gray-200 items-center flex lg:flex-row flex-col justify-center border-[3px] mx-4 md:mx-8 py-2 px-4 rounded-2xl bg-[#001927] mb-8">
           <div className="text-center lg:text-start">
             <h1 className="text-white text-xl font-bold py-4">
-              Stunning visuals and user-friendly layouts
+              Requirement Analysis
             </h1>
             <p className="leading-7 pb-9">
-              Crafted with innovation in mind, Stratus boasts a sleek and
-              futuristic design that captivates your visitors from the moment
-              they land on your site. Impress with stunning visuals and
-              user-friendly layouts that scream modernity and sophistication.
+              Our top-notch team have transparent approach for requirement
+              analysis. they land on your site. Impress with stunning visuals
+              and user-friendly layouts that scream modernity and
+              sophistication.
             </p>
           </div>
           <img
@@ -35,7 +35,7 @@ function ProcessFollow() {
           <img src="processtestimage.png" width="539px" height="285.93"></img>
           <div className="text-center lg:text-start">
             <h1 className="text-white text-xl font-bold py-4">
-              Stunning visuals and user-friendly layouts
+              Design & development
             </h1>
             <p className="leading-7 pb-9">
               Crafted with innovation in mind, Stratus boasts a sleek and
@@ -48,7 +48,7 @@ function ProcessFollow() {
         <div className="border-[#FFB489]  text-gray-200 flex flex-col lg:flex-row items-center justify-center border-[3px] mx-4 md:mx-8 px-4 py-2 rounded-2xl bg-[#39292A] mt-8">
           <div className="text-center lg:text-start">
             <h1 className="text-white text-xl font-bold py-4">
-              Stunning visuals and user-friendly layouts
+              Deployment & Maintenance
             </h1>
             <p className="leading-7 pb-9">
               Crafted with innovation in mind, Stratus boasts a sleek and
