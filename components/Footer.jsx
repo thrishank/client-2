@@ -43,7 +43,7 @@ export const Footer = () => {
               title="Company"
               className="inline-flex items-center"
             >
-              <img src="/logo.png" className=" w-[200px]" alt="" />
+              <img src="/mainlogo.png" className=" w-[200px]" alt="" />
             </Link>
             <div className="mt-4 lg:max-w-sm">
               <p className="text-sm text-[#959EAD] mb-8">
