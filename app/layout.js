@@ -1,18 +1,6 @@
-// import { Inter } from "next/font/google";
-// import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
 import { TransparentHeader } from "@/components/TransparentHeader";
- 
- 
-
-// const inter = Inter({ subsets: ["latin"] });
-// const poppins = Poppins({
-//   subsets: ["latin"],
-//   display: "swap",
-//   variable: "--font-poppins",
-//   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-// });
 
 export const metadata = {
   title: "Custom Android, iOS & Hybrid App Development Services",
@@ -22,10 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      //  className={`${poppins.variable}`}
-    >
+    <html lang="en">
       <body>
         <TransparentHeader></TransparentHeader>
         {children}

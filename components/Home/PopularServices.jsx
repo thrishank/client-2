@@ -4,7 +4,7 @@ import BlueButton from "../ui/BlueButton";
 
 function Card({ title, image, alt }) {
   return (
-    <div className=" flex flex-col justify-center items-center text-white rounded-xl py-10 px-0  md:px-6 w-full ">
+    <div className="flex font-newfont flex-col justify-center items-center text-white bg-[#001927] rounded-[40px] py-10 px-0  md:px-2  w-full border-2 border-[#00C2FF] ">
       <div>
         {" "}
         <Image
@@ -16,7 +16,13 @@ function Card({ title, image, alt }) {
         />
       </div>
       <div className=" my-6">
-        <h3 className=" text-xl font-semibold font-newfont">{title}</h3>
+        <h3 className=" text-2xl md:text-3xl font-semibold text-center pb-6 text-white">
+          {title}
+        </h3>
+        <p className=" text-small text-white text-center">
+          In this model, we can define scope of work and development cost for an
+          app before we start development process.
+        </p>
       </div>
     </div>
   );
@@ -36,13 +42,13 @@ function PopularServices() {
       </div>
       <div className=" flex flex-col md:flex-row justify-evenly gap-8 ">
         <Card
-          image={"/service3.png"}
+          image={"/Android_app.png"}
           title={"Android App"}
           alt={"Android Icon"}
         ></Card>
-        <Card image={"/service1.png"} title={"IOS App"} alt={"ios Icon"}></Card>
+        <Card image={"/ios_app.png"} title={"IOS App"} alt={"ios Icon"}></Card>
         <Card
-          image={"/service2.png"}
+          image={"/Hybrid_app.png"}
           title={"Hybrid App"}
           alt={"Hybrid icon"}
         ></Card>
