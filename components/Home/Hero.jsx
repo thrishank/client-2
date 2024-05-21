@@ -2,12 +2,7 @@ import Image from "next/image";
 import React from "react";
 import WhiteButton from "../ui/WhiteButton";
 
-function Hero({
-  titile,
-  paragraph,
-  link = "/",
-  btn = "Explore More >",
-}) {
+function Hero({ titile, paragraph, link = "/", btn = "Explore More" }) {
   return (
     <>
       <div className="hidden md:flex items-center justify-center h-screen font-newfont">
@@ -22,7 +17,7 @@ function Hero({
               <p className="text-2xl text-[#fff]">{paragraph}</p>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center text-center mt-14">
-              <WhiteButton text={btn} link={link}></WhiteButton>
+              <WhiteButton text={btn} link={link} icon={true}></WhiteButton>
             </div>
           </div>
         </div>
@@ -38,7 +33,7 @@ function Hero({
               <p className="text-2xl text-[#fff]">{paragraph}</p>
             </div>
             <div className="flex flex-col md:flex-row items-center text-center mt-5">
-              <WhiteButton text={btn} link={link}></WhiteButton>
+              <WhiteButton text={btn} link={link} icon={true}></WhiteButton>
             </div>
           </div>
         </div>

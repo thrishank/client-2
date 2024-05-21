@@ -2,11 +2,12 @@ import Image from "next/image";
 import React from "react";
 import BlueButton from "../ui/BlueButton";
 
-function Card({ title, image, alt }) {
+function Card({ title, image, alt, bgColor, text }) {
   return (
-    <div className="flex font-newfont flex-col justify-center items-center text-white bg-[#001927] rounded-[40px] py-10 px-0  md:px-2  w-full border-2 border-[#00C2FF] ">
+    <div
+      className={`flex font-newfont flex-col justify-center items-center text-white ${bgColor} rounded-[40px] py-10 px-0  md:px-2  w-full border-2 border-[#00C2FF] `}
+    >
       <div>
-        {" "}
         <Image
           src={image}
           className="w-[147px] h-[147px] transition-transform transform hover:scale-105"
@@ -19,10 +20,7 @@ function Card({ title, image, alt }) {
         <h3 className=" text-2xl md:text-3xl font-semibold text-center pb-6 text-white">
           {title}
         </h3>
-        <p className=" text-small text-white text-center">
-          In this model, we can define scope of work and development cost for an
-          app before we start development process.
-        </p>
+        <p className=" text-small text-white text-center">{text}</p>
       </div>
     </div>
   );
@@ -45,6 +43,9 @@ function PopularServices() {
           image={"/Android_app.png"}
           title={"Android App"}
           alt={"Android Icon"}
+          text={
+            " We offer user-centric and visually stunning mobile app design for small businesses & start-ups."
+          }
         ></Card>
         <Card image={"/ios_app.png"} title={"IOS App"} alt={"ios Icon"}></Card>
         <Card
