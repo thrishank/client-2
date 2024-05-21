@@ -19,7 +19,7 @@ function Slider() {
         playsInline
         loop
         className="absolute top-50% left-50% w-full h-full object-cover z-0"
-        src="https://build.themovation.com/wp-content/uploads/2023/08/mixkit-long-hallway-in-data-center-23219-medium.mp4"
+        src="./hero.mp4"
       ></video>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-0"></div>
       <Swiper
