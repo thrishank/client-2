@@ -60,20 +60,20 @@ const FeaturesGrid = () => {
           industries that revolutionize user experience.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6 text-white ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-white">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="flex flex-col items-start p-6 shadow-md relative hover:bg-slate-700 border-x-0"
+            className="flex flex-col items-start shadow-md relative hover:bg-[#001927] py-7 pr-7 border-gray-700 border-x"
           >
             <img
               src={feature.imgSrc}
               alt={feature.title}
-              className="w-12 h-12 mb-4"
+              className="w-12 h-12 mb-4 pl-[26px]"
             />
-            <h3 className="text-lg font-semibold mb-2 border-l-2 border-[#6249CE] ">{feature.title}</h3>
-            <p className="text-left">{feature.description}</p>
-            <Link className="cursor-pointer" href="">
+            <h3 className="text-lg font-semibold border-l-4 border-[#6249CE] pl-[22px]">{feature.title}</h3>
+            <p className="text-left pl-[26px]">{feature.description}</p>
+            <Link className="cursor-pointer pl-[26px] text-[#6249CE] bottom-0 relative" href="">
               Learn More
             </Link>
           </div>
