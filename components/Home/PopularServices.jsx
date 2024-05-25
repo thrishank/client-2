@@ -40,16 +40,16 @@ function PopularServices() {
       </div>
       <div className=" flex flex-col md:flex-row justify-evenly gap-8 ">
         <Card
-          image={"/Android_app11.png"}
+          image={"/Android_app.png"}
           title={"Android App"}
           alt={"Android Icon"}
           text={
             " We offer user-centric and visually stunning mobile app design for small businesses & start-ups."
           }
         ></Card>
-        <Card image={"/ios11.png"} title={"IOS App"} alt={"ios Icon"}></Card>
+        <Card image={"/ios_app.png"} title={"IOS App"} alt={"ios Icon"}></Card>
         <Card
-          image={"/hybrid11.png"}
+          image={"/Hybrid_app.png"}
           title={"Hybrid App"}
           alt={"Hybrid icon"}
         ></Card>
