@@ -27,10 +27,10 @@ function Card({ title, image, link = "/" }) {
             <div className="w-full h-[500px] left-0 top-0 absolute bg-gradient-to-b from-[#183b560a] to-gray-800 rounded-2xl" />
           </div>
           <div className=" absolute bottom-0 px-6">
-            <div className=" text-black text-2xl font-medium  leading-[30px] ">
+            <div className=" text-white text-2xl font-medium  leading-[30px] ">
               {title}
             </div>
-            <div className="text-black text-base font-semibold py-6 underline">
+            <div className="text-white text-base font-semibold py-6 underline">
               Read More
             </div>
           </div>
@@ -55,10 +55,10 @@ function CaseStudies({
   return (
     <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pb-6 font-newfont">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-black md:mx-auto">
+        <h2 className="max-w-lg mb-6 text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">
           Case Studies
         </h2>
-        <p className="text-base text-black text-center  md:text-lg px-14">
+        <p className="text-base text-white text-center  md:text-lg px-14">
           {paragraph}
         </p>
       </div>

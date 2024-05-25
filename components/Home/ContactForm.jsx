@@ -48,10 +48,10 @@ function ContactForm() {
   };
 
   return (
-    <div className=" pb-10 md:pb-0 bg-white font-newfont">
+    <div className=" pb-10 md:pb-0 bg-[#0A0D22] font-newfont">
       <div className="px-4 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  relative md:-mb-10 ">
         <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 py-10">
-          <h2 className="max-w-lg text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-black md:mx-auto">
+          <h2 className="max-w-lg text-center text-3xl md:text-5xl font-bold leading-none tracking-tight text-white md:mx-auto">
             Get in Touch
           </h2>
 
